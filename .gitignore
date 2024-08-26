@@ -1,0 +1,23 @@
+# Temp Files
+*.pyc
+logs/*
+*.logs
+*.LOCK
+*.djcache
+*.pdf
+ 
+release/
+ 
+# DW Core Packages
+django_dw_core*/
+dw_lic*/
+psutil*/
+getmac*/
+get_mac*/
+winregistry*/
+
+bin/
+build/
+cython/
+dist/
+
