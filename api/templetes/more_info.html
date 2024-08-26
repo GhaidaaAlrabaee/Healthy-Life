@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Info - Healthy Life Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('healthy_lifestyle.jpg'); /* تأكد من صحة المسار */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .info-container {
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            position: absolute;
+            top: 10%; /* رفع النص قليلاً إلى الأعلى */
+            left: 50%;
+            transform: translateX(-50%); /* توسيط العنصر أفقيًا */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .info-container p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            text-align: justify; /* توزيع النص بشكل مناسب */
+        }
+        .nav-button {
+            position: absolute;
+            top: 10px;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #2196F3;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .nav-button:hover {
+            background-color: #0b7dda;
+        }
+        .nav-button.left {
+            left: 10px;
+        }
+        .nav-button.right {
+            right: 10px;
+        }
+        .nav-button .arrow {
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <a href="bmi.html" class="nav-button left"><span class="arrow">← </span> Back to BMI Calculator </a>
+
+    <div class="info-container">
+        <h1>مؤشر كتلة رشاقة الجسم</h1>
+        <p>
+            BMI (Body Mass Index) هو مقياس يستخدم لتحديد ما إذا كان وزن الجسم ضمن نطاق صحي بناءً على الطول. يتم حساب BMI بقسمة وزن الجسم بالكيلوغرام على مربع الطول بالمتر.
+            <br><br>
+            يعتمد BMI على مقياس موحد يتيح لك تحديد ما إذا كان وزن جسمك يتناسب مع طوله. يمكن أن يساعدك في فهم ما إذا كنت تحت الوزن، طبيعي الوزن، زائد الوزن، أو تعاني من السمنة.
+            <br><br>
+            يتم استخدام BMI كأداة عامة لتقييم الوزن الصحي ولكنه لا يأخذ في الاعتبار عوامل أخرى مثل نسبة الدهون في الجسم أو توزيع الدهون.
+        </p>
+    </div>
+</body>
+</html>
